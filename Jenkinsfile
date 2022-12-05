@@ -22,7 +22,7 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('build_alg') {
           agent {
             node {
               label 'alg_slave'
